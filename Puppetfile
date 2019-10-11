@@ -1,4 +1,4 @@
 mod 'buildtools',
-  :git => 'git@github.com:faintdream/buildtools.git'
+  :git => '82f06af676e53add3875c3eb6d0e4853902174d9@github.com:faintdream/buildtools.git'
 mod 'apache',
-  :git => 'git@github.com:faintdream/apache.git'
+  :git => '82f06af676e53add3875c3eb6d0e4853902174d9@github.com:faintdream/apache.git'
