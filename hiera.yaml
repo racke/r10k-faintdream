@@ -2,7 +2,7 @@
 version: 5
 hierarchy:
   - name: "per node data"
-    path: "nodes/%{trusted.certname}.yaml"
+    path: "nodes/%{::hostname}.yaml"
 
   - name: "OS default data"
     path: "os/%{facts.os.family}.yaml"
