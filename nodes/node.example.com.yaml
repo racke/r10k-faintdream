@@ -1,4 +1,5 @@
 ---
+hierasample::apl::ssl: MAYDAY
 hierasample::apl::ssl: False
 hierasample::apl::backups_enabled: True
 hierasample::apl::site_alias: foobar
