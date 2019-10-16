@@ -1,0 +1,5 @@
+---
+hierasample::apl::filename: MAYDAY
+hierasample::apl::ssl: TRUE
+hierasample::apl::backups_enabled: TRUE
+hierasample::apl::site_alias: foo from common.yaml
