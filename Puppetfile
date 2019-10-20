@@ -1,3 +1,4 @@
+mod 'puppetlabs-stdlib', '6.1.0'
 mod 'buildtools',
   :git => 'https://github.com/faintdream/buildtools.git'
 mod 'apache',

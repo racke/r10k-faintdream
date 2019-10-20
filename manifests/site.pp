@@ -1,5 +1,6 @@
 node 'puppet' {
  include r10k
+ include eyaml
 }
 node 'node' {
  include buildtools
