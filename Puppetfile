@@ -7,3 +7,5 @@ mod 'r10k',
   :git => 'https://github.com/faintdream/faintdream-r10k.git'
 mod 'hierasample',
   :git => 'https://github.com/faintdream/faintdream-hierasample.git'
+mod 'eyaml',
+  :git => 'https://github.com/faintdream/eyaml'
