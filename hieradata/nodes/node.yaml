@@ -2,3 +2,7 @@
 hierasample::apl::filename: MAYDAY
 hierasample::apl::ssl: False
 hierasample::apl::backups_enabled: True
+classes:
+  - hierasample::class1
+  - hierasample::class2
+  - hierasample::class3
