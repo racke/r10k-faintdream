@@ -5,7 +5,8 @@ node 'puppet' {
 node 'node' {
  include buildtools
  include apache
- include hierasample::lookup
+ include hierasample
+ Class["buildtools"] -> Class["apache"] ->Class["hierasample"]
 }
 
 node 'ubuntu' {
