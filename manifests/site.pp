@@ -13,3 +13,5 @@ node 'ubuntu' {
  include buildtools
  include apache
 }
+
+include hierasample::secrets
