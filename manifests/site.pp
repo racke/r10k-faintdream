@@ -18,9 +18,8 @@ node /^rhel\d$/ {
   include ntp
 }
 
-node /^ubuntu[.]\w+[.]\w+$/ {
+node focal {
   include buildtools
-  include apache
 }
 
 include hierasample::secrets
