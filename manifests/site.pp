@@ -16,12 +16,14 @@ node /^node[.]\w+[.]\w+$/ {
 node /^rhel\d$/ {
   include buildtools
   include ntp
+  include firewall
 }
 
 node focal {
   include buildtools
   include apt
   include ntp
+  include firewall
 }
 
 include hierasample::secrets

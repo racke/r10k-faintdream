@@ -10,5 +10,6 @@ mod 'hierasample',
 mod 'eyaml',
   :git => 'https://github.com/faintdream/eyaml'
 mod 'puppetlabs/apt', '7.0.1'
+mod 'puppetlabs/firewall', '2.1.0'
 mod 'puppetlabs/ntp', '8.0.0'
 mod 'puppetlabs-puppetdb', '7.4.0'
