@@ -13,6 +13,10 @@ node /^node[.]\w+[.]\w+$/ {
   Class["buildtools"] -> Class["apache"] ->Class["hierasample"]
 }
 
+node /^rhel[.]\w+[.]\w+$/ {
+  include buildtools
+}
+
 node /^ubuntu[.]\w+[.]\w+$/ {
   include buildtools
   include apache
