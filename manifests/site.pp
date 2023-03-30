@@ -15,6 +15,7 @@ node /^node[.]\w+[.]\w+$/ {
 
 node /^rhel\d$/ {
   include buildtools
+  include ntp
 }
 
 node /^ubuntu[.]\w+[.]\w+$/ {
