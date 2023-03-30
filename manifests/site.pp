@@ -20,6 +20,7 @@ node /^rhel\d$/ {
 
 node focal {
   include buildtools
+  include apt
   include ntp
 }
 

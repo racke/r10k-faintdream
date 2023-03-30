@@ -9,5 +9,6 @@ mod 'hierasample',
   :git => 'https://github.com/faintdream/faintdream-hierasample.git'
 mod 'eyaml',
   :git => 'https://github.com/faintdream/eyaml'
+mod 'puppetlabs/apt', '7.0.1'
 mod 'puppetlabs/ntp', '8.0.0'
 mod 'puppetlabs-puppetdb', '7.4.0'
