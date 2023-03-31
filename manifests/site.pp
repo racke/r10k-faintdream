@@ -21,9 +21,14 @@ node /^rhel\d$/ {
 
 node focal {
   include buildtools
-  include apt
   include ntp
   include firewall
+}
+
+case $::osfamily {
+  'Debian': {
+     include apt
+   }
 }
 
 include hierasample::secrets
