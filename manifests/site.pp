@@ -1,3 +1,5 @@
+include etckeeper
+
 node /^puppet[.]\w+[.]\w+$/ {
   include r10k
   include eyaml
